@@ -7,6 +7,8 @@ const comments = {
   id: 1,
   items: [],
 };
+
+console.log("Working")
 const App = () => {
   const [commentsData, setCommentsData] = useState(comments);
 
